@@ -8,6 +8,16 @@
   height: 100vh;
 }
 
+.navbar {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #0070f3;
+  color: #fff;
+  padding: 0 14rem;
+}
+
 .main {
   padding: 5rem 0;
   flex: 1;
@@ -47,7 +57,8 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 .title,

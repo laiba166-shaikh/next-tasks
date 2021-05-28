@@ -1,11 +1,10 @@
 import styles from "../styles/Home.module.css";
-import Navbar from "./../components/Navbar";
 
 const Contact = () => {
   return (
-    <Navbar>
+    <div className={styles.container}>
       <h1>Contact Page</h1>
-    </Navbar>
+    </div>
   );
 };
 

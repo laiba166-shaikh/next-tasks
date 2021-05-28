@@ -14,6 +14,9 @@ const Navbar = ({ children }) => {
         <Link href="/contact">
           <h2 className={styles.title}>Contact </h2>
         </Link>
+        <Link href="/products">
+          <h2 className={styles.title}>Products </h2>
+        </Link>
       </div>
       {children}
     </div>

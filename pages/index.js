@@ -3,9 +3,8 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div>
-      <Navbar />
+    <Navbar>
       <h1>Home Page</h1>
-    </div>
+    </Navbar>
   );
 }

@@ -1,14 +1,11 @@
-import Link from "next/link";
 import styles from "../styles/Home.module.css";
+import Navbar from "./../components/Navbar";
 
 const Contact = () => {
   return (
-    <div>
+    <Navbar>
       <h1>Contact Page</h1>
-      <Link href="/">
-        <h2 className={styles.title}>Go to home</h2>
-      </Link>
-    </div>
+    </Navbar>
   );
 };
 
